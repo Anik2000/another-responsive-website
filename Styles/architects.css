@@ -11,6 +11,10 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.feature-description{
+    color: #727272;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -84,6 +88,7 @@ main{
     display: flex;
     gap: 76px;
     align-items: center;
+    margin-bottom: 50px;
 }
 .team-images{
     display: grid;
@@ -108,6 +113,56 @@ main{
 .orange{
     color: #FF900E;
 }
+
+/* Features You Will Love */
+
+.features{
+    display: flex;
+    gap: 140px;
+}
+
+.feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-card{
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.experience-badge{
+    padding: 45px 42px;
+}
+
+#big-btn{
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.jambo{
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+.experience{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.feature-image{
+    width: 100%;
+}
+/* Some Facts */
 
 .facts-card{
     border: 1px solid #FF900E;
@@ -182,6 +237,15 @@ main{
         justify-items: center;
         gap: 30px;
     }
+
+    .features{
+        flex-direction: column;
+    }
+
+    #big-btn{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 }
 
 /* Responsive Media Query for Medium Devices */
@@ -211,5 +275,14 @@ main{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 30px;
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    #big-btn{
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }
