@@ -114,4 +114,22 @@ main{
     .navbar, .nav-links{
         flex-direction: column;
     }
+    .teams{
+        flex-direction: column;
+    }
+    .team-images{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+    .feature-details{
+        text-align: center;
+    }
+}
+
+/* Responsive Media Query for Medium Devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
 }
