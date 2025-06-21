@@ -211,6 +211,20 @@ main{
     filter: grayscale(100%);
 }
 
+footer{
+   margin-right:auto ;
+   margin-left: auto;
+   margin-top: 130px;
+   margin-bottom: 130px;
+   max-width: 1440px;
+   border-radius: 5px;
+}
+
+.footer-text{
+    padding: 40px 20px;
+    text-align: center;
+}
+
 /* Responsive Media Query for Mobile Devices */
 
 @media screen and (max-width: 576px) {
